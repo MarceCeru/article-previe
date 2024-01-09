@@ -1,0 +1,9 @@
+const shareBtn = document.querySelector('.card__content__button');
+
+const socialIcons = document.querySelector('.card__content__socialIcons');
+
+
+shareBtn.addEventListener('click', () => {
+    socialIcons.classList.toggle('show');
+    shareBtn.classList.toggle('rotate')
+})
